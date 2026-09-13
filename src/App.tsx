@@ -3,15 +3,22 @@ import './App.css'
 function App() {
 
   return (
-    <div className='bg-zinc-100'>
-      <ul className='flex flex-nowrap justify-center bg-white/
-      80 rounded-md m-3 mx-auto p-3 w-90 shadow-lg fixed backdrop-blur-md left-1/2 -translate-x-1/2 z-50'>
-          <li className="px-4 py-2 text-zinc-600 hover:font-medium rounded-lg cursor-pointer transition-all ease-in-out hover:bg-white hover:text-zinc-900 hover:scale-105 hover:shadow-md">Home</li>
-          <li className='px-4 py-2 text-zinc-600 hover:font-medium rounded-lg cursor-pointer transition-all ease-in-out hover:bg-white hover:text-zinc-900 hover:scale-105 hover:shadow-md'>About</li>
-          <li className='px-4 py-2 text-zinc-600 hover:font-medium rounded-lg cursor-pointer transition-all ease-in-out hover:bg-white hover:text-zinc-900 hover:scale-105 hover:shadow-md'>Project</li>
-          <li className='px-4 py-2 text-zinc-600 hover:font-medium rounded-lg cursor-pointer transition-all ease-in-out hover:bg-white hover:text-zinc-900 hover:scale-105 hover:shadow-md'>Contact</li>
-      </ul>
-    </div>
+    <nav className="fixed top-5 left-1/2 -translate-x-1/2 z-50">
+  <ul className="flex items-center gap-2 bg-white/80 backdrop-blur-md border border-zinc-200/80 rounded-full px-4 py-2 shadow-lg shadow-zinc-200/50">
+    <li className="px-4 py-1.5 text-sm text-zinc-600 font-medium rounded-full cursor-pointer transition-all duration-200 hover:text-zinc-900 hover:bg-zinc-100/80 hover:scale-105">
+      Home
+    </li>
+    <li className="px-4 py-1.5 text-sm text-zinc-600 font-medium rounded-full cursor-pointer transition-all duration-200 hover:text-zinc-900 hover:bg-zinc-100/80 hover:scale-105">
+      About
+    </li>
+    <li className="px-4 py-1.5 text-sm text-zinc-600 font-medium rounded-full cursor-pointer transition-all duration-200 hover:text-zinc-900 hover:bg-zinc-100/80 hover:scale-105">
+      Project
+    </li>
+    <li className="px-4 py-1.5 text-sm text-zinc-600 font-medium rounded-full cursor-pointer transition-all duration-200 hover:text-zinc-900 hover:bg-zinc-100/80 hover:scale-105">
+      Contact
+    </li>
+  </ul>
+</nav>
   )
 }
 
